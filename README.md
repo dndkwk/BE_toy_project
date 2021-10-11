@@ -7,5 +7,6 @@ Koa 사용
 <br>REST API: 클라이언트가 DB에 직접 접속하여 데이터를 변경하면 안되므로 REST API를 사용,get post delete put patch 
 <br>컨트롤러: 라우트 처리 함수들을 모아 놓은 파일
 <br>koa-bodyparser: request body에 JSON형식으로 데이터를 넣어주면, 이를 파싱하여 서버에서 사용할 수 있게 함
-<br>ctx.status와 ctx.body의 의미 알아보기
-<br>module.exports의 의미
+<br>module.exports: 다른 파일에서 사용할 수 있게 한다(exports 대체 가능)
+<br>ctx: Context의 줄임말로 웹 요청과 응답에 관한 정보를 지니고 있다
+<br>connect 의미 알아보기
