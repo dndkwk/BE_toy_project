@@ -9,4 +9,6 @@ Koa 사용
 <br>koa-bodyparser: request body에 JSON형식으로 데이터를 넣어주면, 이를 파싱하여 서버에서 사용할 수 있게 함
 <br>module.exports: 다른 파일에서 사용할 수 있게 한다(exports 대체 가능)
 <br>ctx: Context의 줄임말로 웹 요청과 응답에 관한 정보를 지니고 있다
+<br>save()를 실행해야 데이터베이스에 저장(async/await 사용)
+<br>find()함수 호출한 후 exec()를 붙여야 서버에 쿼리 요청
 <br>connect 의미 알아보기

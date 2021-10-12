@@ -7,8 +7,8 @@ const PostSchema = new Schema({
   body: String,
   tags: [String],
   publishedDate: {
-    type: Data,
-    default: Data.now,
+    type: Date,
+    default: Date.now,
   },
 });
 
