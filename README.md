@@ -11,4 +11,5 @@ Koa 사용
 <br>ctx: Context의 줄임말로 웹 요청과 응답에 관한 정보를 지니고 있다
 <br>save()를 실행해야 데이터베이스에 저장(async/await 사용)
 <br>find()함수 호출한 후 exec()를 붙여야 서버에 쿼리 요청
+<br> @hapi/joi: 내용이 자기가 만든 스키마의 형식에 맞는지 확인할때 사용
 <br>connect 의미 알아보기
