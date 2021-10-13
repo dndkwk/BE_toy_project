@@ -3,6 +3,8 @@
 백엔드 토이 프로젝트
 Koa 사용 
 
+##배운점 메모
+
 <br>start:dev: nodemon을 통해 src 디렉터리를 보다가 파일이 변경되면 재시작
 <br>REST API: 클라이언트가 DB에 직접 접속하여 데이터를 변경하면 안되므로 REST API를 사용,get post delete put patch 
 <br>컨트롤러: 라우트 처리 함수들을 모아 놓은 파일
@@ -11,5 +13,7 @@ Koa 사용
 <br>ctx: Context의 줄임말로 웹 요청과 응답에 관한 정보를 지니고 있다
 <br>save()를 실행해야 데이터베이스에 저장(async/await 사용)
 <br>find()함수 호출한 후 exec()를 붙여야 서버에 쿼리 요청
-<br> @hapi/joi: 내용이 자기가 만든 스키마의 형식에 맞는지 확인할때 사용
+<br>@hapi/joi: 내용이 자기가 만든 스키마의 형식에 맞는지 확인할때 사용
+<br>bodyParser가 deprecate되어서 koa-bodyparser사용
+<br>인스턴스 메서드를 작성할 때, this(인스턴스)를 사용하게 된다면 화살표 함수가 아닌 function을 사용하여 구현해야한다. 스태틱 함수에서 this는 모델을 가리킴
 <br>connect 의미 알아보기
