@@ -17,4 +17,4 @@ Koa 사용
 <br>bodyParser가 deprecate되어서 koa-bodyparser사용
 <br>인스턴스 메서드를 작성할 때, this(인스턴스)를 사용하게 된다면 화살표 함수가 아닌 function을 사용하여 구현해야한다. 스태틱 함수에서 this는 모델을 가리킴
 <br>jwt를 이용하여 토큰 생성
-<br>connect 의미 알아보기
+<br>ctx.state, connect 의미 알아보기

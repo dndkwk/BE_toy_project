@@ -9,7 +9,7 @@ export const register = async (ctx) => {
     username: Joi.string().alphanum().min(3).max(20).required(),
     password: Joi.string().required(),
   });
-  const result = schema.valildate(ctx.request.body);
+  const result = schema.validate(ctx.request.body);
   if (result.error) {
     ctx.status = 400;
     ctx.body = result.error;
@@ -20,7 +20,7 @@ export const register = async (ctx) => {
   try {
     const exists = await User.findByUsername(username);
     if (exists) {
-      ctx.status = 400;
+      ctx.status = 409;
       return;
     }
     const user = new User({ username });
@@ -70,6 +70,20 @@ export const login = async (ctx) => {
   }
 };
 
-export const check = async (ctx) => {};
+/*
+GET /api/auth/check
+*/
+export const check = async (ctx) => {
+  const { user } = ctx.state;
+  console.log(user);
+  if (!user) {
+    ctx.status = 401;
+    return;
+  }
+  ctx.body = user;
+};
 
-export const logout = async (ctx) => {};
+export const logout = async (ctx) => {
+  ctx.cookies.set('access_token');
+  ctx.status = 204;
+};
