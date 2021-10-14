@@ -17,4 +17,5 @@ Koa 사용
 <br>bodyParser가 deprecate되어서 koa-bodyparser사용
 <br>인스턴스 메서드를 작성할 때, this(인스턴스)를 사용하게 된다면 화살표 함수가 아닌 function을 사용하여 구현해야한다. 스태틱 함수에서 this는 모델을 가리킴
 <br>jwt를 이용하여 토큰 생성
-<br>ctx.state, connect 의미 알아보기
+<br>MongoDB에서 조회한 ID값은 문자열과 비교할 때는 .toString()을 써야한다.
+<br>ctx.state: 미들웨어 및 프론트 엔드로 정보를 전달하기 위한 권장 네임 스페이스
