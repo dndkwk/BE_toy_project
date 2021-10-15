@@ -5,19 +5,19 @@ Koa 사용
 
 ### 1.도식화
 
-main.js
+**main.js (localhost:4000/api/까지의 경로)**
 
 <br> ![main](https://user-images.githubusercontent.com/59908043/137437457-b9fb8822-2350-4934-aeae-e297844f3b34.PNG)
 
-Schema(PostSchema와 UserSchema)
+**Schema(PostSchema와 UserSchema)**
 
 <br> ![Schema](https://user-images.githubusercontent.com/59908043/137437752-4e8f80f3-cc92-470d-8fa3-bb4b2c0132e1.PNG)
 
-auth
+**auth (localhost:4000/api/auth/* 까지의 경로)**
 
 <br> ![auth](https://user-images.githubusercontent.com/59908043/137437908-b7cf4af3-f0f7-453e-ac81-e6aa92aefdb4.PNG)
 
-posts
+**posts (localhost:4000/api/posts/* 까지의 경로)**
 
 <br> ![posts](https://user-images.githubusercontent.com/59908043/137437923-cbeb357b-1520-4489-b1cf-acc5b1c6bff9.PNG) 
 
