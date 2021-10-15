@@ -3,18 +3,25 @@
 백엔드 토이 프로젝트
 Koa 사용 
 
-도식화
+### 1.도식화
 
-### main.js
+main.js
 
 <br> ![main](https://user-images.githubusercontent.com/59908043/137437457-b9fb8822-2350-4934-aeae-e297844f3b34.PNG)
 
-### Schema(PostSchema와 UserSchema)
+Schema(PostSchema와 UserSchema)
 
 <br> ![Schema](https://user-images.githubusercontent.com/59908043/137437752-4e8f80f3-cc92-470d-8fa3-bb4b2c0132e1.PNG)
 
-### 배운점 메모
+auth
 
+<br> ![auth](https://user-images.githubusercontent.com/59908043/137437908-b7cf4af3-f0f7-453e-ac81-e6aa92aefdb4.PNG)
+
+posts
+
+<br> ![posts](https://user-images.githubusercontent.com/59908043/137437923-cbeb357b-1520-4489-b1cf-acc5b1c6bff9.PNG) 
+
+### 2. 배운점 메모
 <br>start:dev: nodemon을 통해 src 디렉터리를 보다가 파일이 변경되면 재시작
 <br>REST API: 클라이언트가 DB에 직접 접속하여 데이터를 변경하면 안되므로 REST API를 사용,get post delete put patch 
 <br>컨트롤러: 라우트 처리 함수들을 모아 놓은 파일
